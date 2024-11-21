@@ -242,7 +242,7 @@ function sendGCM($title, $message, $topic, $pageid, $pagename,)
 
     $fields = json_encode($fields);
     $headers = array(
-        'Authorization: key=' . "AAAAN03T-ig:APA91bFxlKS53s8DBMlMGzmbFsOaGP3b5xVf-1gS6YbJMM84r_Oy1EPdQUNe9xLxK2VZUA1Dje9DO1A0RHhkoaolvqybWdrSPOwKh3MdWoS5ZIzsZMzjrQisVG9TP32Glzah_fTcikPq",
+        'Authorization: key=' . "-",
         'Content-Type: application/json'
     );
 
